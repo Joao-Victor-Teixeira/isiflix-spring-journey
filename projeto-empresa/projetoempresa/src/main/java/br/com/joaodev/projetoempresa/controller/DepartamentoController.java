@@ -20,7 +20,7 @@ public class DepartamentoController {
     //      return (ArrayList<Departamento>)dao.findAll();
     //      return (ArrayList<Departamento>)dao.findByOrderByNome(); 
     //      return (ArrayList<Departamento>)dao.findByAndar(1); 
-    //      return (ArrayList<Departamento>)dao.findByOrderByNumeroIdDesc(); 
-            return (ArrayList<Departamento>)dao.findByNumeroIdOrAndar(1,3); 
+            return (ArrayList<Departamento>)dao.findByOrderByNumeroIdDesc(); 
+    //      return (ArrayList<Departamento>)dao.findByNumeroIdOrAndar(1,3); 
     }
 }
